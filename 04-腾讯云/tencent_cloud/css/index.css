@@ -1,0 +1,237 @@
+/* 首页美化 */
+* {
+  margin: 0;
+  padding: 0;
+  /* 内减模式 */
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.header {
+  height: 40px;
+  background-color: #2b303b;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1204px;
+}
+
+.logo {
+  float: left;
+  margin: 11px 0px;
+  width: 78px;
+  height: 18px;
+  /* background-color: antiquewhite; */
+}
+
+.nav {
+  float: right;
+  height: 40px;
+  /* background-color: orange; */
+}
+
+.nav li {
+  float: left;
+  padding: 9px 0;
+}
+
+.nav a {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+}
+
+.nav li span {
+  padding: 0 8px;
+  color: #fff;
+}
+
+.bar {
+  height: 480px;
+  background-color: #181c28;
+}
+
+.bar .bar-bg {
+  margin: 0px 2px;
+  width: 1200px;
+  height: 480px;
+  background-image: url(../images/banner.png);
+}
+
+.bar .bar-bg .bar-left {
+  width: 250px;
+  height: 480px;
+  background-color: #1b2a3f;
+}
+
+.bar .bar-inner {
+  float: left;
+  margin: 50px 19px 27px;
+  width: 212px;
+  height: 401px;
+  /* background-color: orange; */
+}
+
+.bar-inner li {
+  float: left;
+  margin-bottom: 22px;
+  cursor: pointer;
+  width: 212px;
+  height: 18px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.bar-inner span {
+  float: right;
+}
+
+.content {
+  height: 715px;
+}
+
+.content strong {
+  display: block;
+  padding: 42px 0 22px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.content span {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.content .clazz {
+  margin: 28px auto 102px;
+  width: 1200px;
+  height: 460px;
+  /* 圆角 */
+  border-radius: 15px;
+  border: 1.5px solid #ccc;
+}
+
+.clazz .left {
+  float: left;
+  width: 492px;
+  height: 460px;
+  /* background-color: red; */
+}
+
+.clazz .right {
+  float: right;
+  width: 702px;
+  height: 460px;
+  /* background-color: orange; */
+}
+
+.content .course {
+  margin: 38px 0 0 48px;
+  width: 444px;
+  /* 高度取决于右边图片的高 */
+  height: 348px;
+  /* background-color: aqua; */
+}
+
+.course h1 {
+  display: inline-block;
+  padding: 15px 0 2px;
+  font-weight: normal;
+  font-size: 27px;
+  color: #000;
+  border-bottom: 1.5px solid #ccc;
+}
+
+.course .desc {
+  margin-top: 16px;
+  line-height: 26px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.course button {
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #ffa500;
+  padding: 12px 48px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.right img {
+  margin: 38px 48px 72px 75px;
+  width: 580px;
+  height: 348px;
+}
+
+.footer {
+  height: 400px;
+  background-color: #2e3033;
+}
+
+.footer ul .title {
+  float: left;
+  width: 198px;
+}
+
+.footer ul {
+  padding: 32px 0 0 2px;
+}
+
+.footer ul li {
+  padding-bottom: 4px;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #ccc;
+}
+
+.title ul li:first-child {
+  /* 找到顶部a标签设置字体大小与位置 */
+  padding-bottom: 12px;
+  font-size: 16px;
+}
+
+.version {
+  float: right;
+  margin-top: 33px;
+  width: 192px;
+  height: 96px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer button {
+  float: right;
+  background-color: #00a4ff;
+  border: 2px solid #00a4ff;
+  padding: 10px 66px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
